@@ -1,0 +1,22 @@
+{
+  "C":
+  {
+    "requirements":["A","B"],
+    "unlocks": ["End"]
+  },
+  "End":
+  {
+    "requirements":["C"]
+  },
+  "B":
+  {
+    "unlocks":["C"]
+  },
+  "A":
+  {
+    "unlocks":["C"]
+  },
+  "Start":
+  {
+  }
+}

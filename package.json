@@ -1,0 +1,16 @@
+{
+  "name": "dungeon-graphs",
+  "version": "0.0.0",
+  "description": "A research project to generate and solve sequence dungeon graphs for games",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dungeon",
+    "graphs",
+    "nodes"
+  ],
+  "author": "ArekusuNaito",
+  "license": "MIT"
+}
