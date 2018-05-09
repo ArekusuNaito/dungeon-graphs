@@ -6,12 +6,12 @@
   },
   "Locked-Door":
   {
-    "requirements":["key","key","key"],
+    "requirements":["key"],
     "neighbors":["Branch","End"]
   },
   "Key-A":
   {
-    "awards":["key","key"],
+    "awards":["key"],
     "neighbors":["Branch","Key-B"]
   },
   "Key-B":
