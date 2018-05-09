@@ -1,0 +1,31 @@
+{
+  "End":
+  {
+    "neighbors":["Locked-Door"],
+    "awards":["An Extra Heart"]
+  },
+  "Locked-Door":
+  {
+    "requirements":["key","key","key"],
+    "neighbors":["Branch","End"]
+  },
+  "Key-A":
+  {
+    "awards":["key","key"],
+    "neighbors":["Branch","Key-B"]
+  },
+  "Key-B":
+  {
+    "awards":["key"],
+    "neighbors":["Key-A"]
+  },
+  "Branch":
+  {
+    "neighbors":["Start","Locked-Door","Key-A"]
+  },
+  "Start":
+  {
+    "neighbors":["Branch"],
+    "awards":["50 Silver"]
+  }
+}
